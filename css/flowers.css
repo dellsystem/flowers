@@ -1,0 +1,185 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
+ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content:'';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* PAGES */
+ .page.fifth {
+    min-height: 20vh;
+}
+.page.quarter {
+    min-height: 25vh;
+}
+.page.third {
+    min-height: 33.3vh;
+}
+.page.half {
+    min-height: 50vh;
+}
+.page.threeq {
+    min-height: 75vh;
+}
+.page.full {
+    min-height: 100vh;
+}
+.page.double {
+    min-height: 200vh;
+}
+.page.triple {
+    min-height: 300vh;
+}
+.page.five {
+    min-height: 500vh;
+}
+.page.ten {
+    min-height: 1000vh;
+}
+.page.fifth.force {
+    height: 20vh;
+}
+.page.quarter.force {
+    height: 25vh;
+}
+.page.third.force {
+    height: 33.3vh;
+}
+.page.half.force {
+    height: 50vh;
+}
+.page.threeq.force {
+    height: 75vh;
+}
+.page.full.force {
+    height: 100vh;
+}
+.page.double.force {
+    height: 200vh;
+}
+.page.triple.force {
+    height: 300vh;
+}
+.page.five.force {
+    height: 500vh;
+}
+.page.ten.force {
+    height: 1000vh;
+}
+/* ALIGNMENT */
+ .align {
+    display: flex;
+}
+.align.inline {
+    display: inline-flex;
+}
+.align.row {
+    flex-direction: row;
+}
+.align.row-rev {
+    flex-direction: row-reverse;
+}
+.align.col {
+    flex-direction: column;
+}
+.align.col-rev {
+    flex-direction: column-reverse;
+}
+.align.nowrap {
+    flex-wrap: nowrap;
+}
+.align.wrap {
+    flex-wrap: wrap;
+}
+.align.wrap-rev {
+    flex-wrap: reverse;
+}
+.align.h-item-start {
+    justify-content: flex-start;
+}
+.align.h-item-end {
+    justify-content: flex-end;
+}
+.align.h-item-center {
+    justify-content: center;
+}
+.align.h-item-space-a {
+    justify-content: space-around;
+}
+.align.h-item-space-b {
+    justify-content: space-between;
+}
+.align.v-item-start {
+    align-items: flex-start;
+}
+.align.v-item-end {
+    align-items: flex-end;
+}
+.align.v-item-center {
+    align-items: center;
+}
+.align.v-item-stretch {
+    align-items: stretch;
+}
+.align.v-item-base {
+    align-items: baseline;
+}
+.align.v-content-start {
+    align-content: flex-start;
+}
+.align.v-content-end {
+    align-content: flex-end;
+}
+.align.v-content-center {
+    align-content: center;
+}
+.align.v-content-space-a {
+    align-content: space-around;
+}
+.align.v-content-space-b {
+    align-content: space-between;
+}
+.align.v-content-stretch {
+    align-content: stretch;
+}
+.align>.quarter {
+    flex-basis: 24.5%;
+}
+.align>.third {
+    flex-basis: 33%;
+}
+.align>.half {
+    flex-basis: 49.5%;
+}
+.align>.full {
+    flex-basis: 100%;
+}
+/* LISTS */
+ ul.blank {
+    list-style: none;
+}
+ul.none {
+    text-indent: none;
+}

@@ -1,0 +1,44 @@
+section.gridc
+{
+    counter-reset: gridc;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+section.gridc>div
+{
+    background-color: #000;
+}
+section.gridc>div:after {
+    display: block;
+    counter-increment: gridc;
+    content: counter(gridc);
+    color: white;
+    font-size: 16vh;
+    text-align: center;
+    width: 100px;
+    padding: 20px;
+}
+section.gridc>div~div {
+    margin-left: 5px;
+}
+section:nth-child(odd)
+{
+    background-color: lightcoral;
+}
+section:nth-child(even)
+{
+    background-color: lightblue;
+}
+h1{
+    font-size: 5vh;
+    text-align: center;
+    background-color: black;
+    color: lightcoral;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+code
+{
+    color: lightblue;
+    font-family:monospace;
+}
