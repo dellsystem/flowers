@@ -164,6 +164,9 @@ table {
 .align.v-content-stretch {
     align-content: stretch;
 }
+.align>.fifth {
+    flex-basis: 19.5%;
+}
 .align>.quarter {
     flex-basis: 24.5%;
 }
