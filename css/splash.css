@@ -1,0 +1,45 @@
+@font-face {
+    font-family:"Great Vibes";
+    src: url("../fonts/GreatVibes-Regular.otf");
+}
+a {
+    color: currentcolor;
+}
+div.bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-size: cover;
+    background-position: center;
+    filter: blur(1px) brightness(0.7);
+    -webkit-filter: blur(1px) brightness(0.7);
+    -moz-filter: blur(1px) brightness(0.7);
+}
+div.bg~* {
+    z-index: 1;
+}
+section:nth-child(1) * {
+    color: floralwhite;
+    font-family:"Great Vibes", "cursive";
+}
+section:nth-child(1)>h1 {
+    font-size: 18vmin;
+}
+section:nth-child(1)>h2 {
+    font-size: 5vmin;
+}
+section:nth-child(1)>div.bg {
+    background-image: url("../images/flowers1.jpg");
+}
+footer {
+    text-align: center;
+    font-family:"Great Vibes", "cursive";
+    font-size: 2vmin;
+    color: floralwhite;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 5px;
+}
