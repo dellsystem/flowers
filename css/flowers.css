@@ -164,6 +164,9 @@ table {
 .align.v-content-stretch {
     align-content: stretch;
 }
+.align>.fifth {
+    flex-basis: 19.5%;
+}
 .align>.quarter {
     flex-basis: 24.5%;
 }
@@ -177,9 +180,86 @@ table {
     flex-basis: 100%;
 }
 /* LISTS */
- ul.blank {
+ul.blank {
     list-style: none;
 }
 ul.none {
     text-indent: none;
 }
+/* TEXT */
+.italic {
+    font-style: italic;
+}
+.oblique {
+    font-style: oblique;
+}
+.smallcaps {
+    font-variant: small-caps
+}
+.lowercase {
+    text-transform: lowercase;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.capitalize {
+    text-transform: capitalize;
+}
+.capitalise { /* hello british friends */
+    text-transform: capitalize;
+}
+.lightest {
+    font-weight: 100;
+}
+.lighter {
+    font-weight: 200;
+}
+.light {
+    font-weight: 300;
+}
+.book {
+    font-weight: 400;
+}
+.medium {
+    font-weight: 500;
+}
+.mediumer {
+    font-weight: 600;
+}
+.bold {
+    font-weight: 700;
+}
+.bolder {
+    font-weight: 800;
+}
+.boldest {
+    font-weight: 900;
+}
+.ellipsis {
+    text-overflow: ellipsis;
+}
+.text-line-none {
+    text-decoration: none;
+}
+.text-line-over {
+    text-decoration: overline;
+}
+.text-line-under {
+    text-decoration: underline;
+}
+.text-line-through {
+    text-decoration: line-through;
+}
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.text-justify {
+    text-align: justify;
+}
+
