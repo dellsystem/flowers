@@ -1,9 +1,18 @@
-@font-face {
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+ @font-face {
     font-family:"Great Vibes";
     src: url("../fonts/GreatVibes-Regular.otf");
 }
 a {
     color: currentcolor;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 5px;
+}
+p {
+    font-family:"Droid Sans", sans-serif;
+    font-size: 3vmin;
+    max-width: 80%;
 }
 div.bg {
     position: absolute;
@@ -13,33 +22,52 @@ div.bg {
     bottom: 0px;
     background-size: cover;
     background-position: center;
-    filter: blur(1px) brightness(0.7);
-    -webkit-filter: blur(1px) brightness(0.7);
-    -moz-filter: blur(1px) brightness(0.7);
 }
 div.bg~* {
     z-index: 1;
 }
-section:nth-child(1) * {
+section {
+    position: relative;
+}
+.cursive {
+    font-family:"Great Vibes", "cursive";
+    font-size: 200%;
+}
+aside#github {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    z-index: 1000;
+}
+aside#github img {
+    min-width: 64px;
+    width: 10vmin;
+}
+/* TITLE PAGE */
+ section:nth-of-type(1) * {
     color: floralwhite;
     font-family:"Great Vibes", "cursive";
 }
-section:nth-child(1)>h1 {
+section:nth-of-type(1)>h1 {
     font-size: 18vmin;
 }
-section:nth-child(1)>h2 {
+section:nth-of-type(1)>h2 {
     font-size: 5vmin;
 }
-section:nth-child(1)>div.bg {
+section:nth-of-type(1)>div.bg {
     background-image: url("../images/flowers1.jpg");
+    filter: blur(1px) brightness(0.7);
+    -webkit-filter: blur(1px) brightness(0.7);
+    -moz-filter: blur(1px) brightness(0.7);
 }
-footer {
-    text-align: center;
+/* PAGES PAGE */
+ section:nth-of-type(2)>h1 {
     font-family:"Great Vibes", "cursive";
-    font-size: 2vmin;
-    color: floralwhite;
-    position: fixed;
-    left: 0px;
-    right: 0px;
-    bottom: 5px;
+    font-size: 18vmin;
+}
+section:nth-of-type(2)>div.bg {
+    background-image: url("../images/flowers2.jpg");
+    filter: blur(5px) brightness(1.5) saturate(3) contrast(0.9) opacity(0.75);
+    -webkit-filter: blur(5px) brightness(1.5) saturate(3) contrast(0.9) opacity(0.75);
+    -moz-filter: blur(5px) brightness(1.5) saturate(3) contrast(0.9) opacity(0.75);
 }
