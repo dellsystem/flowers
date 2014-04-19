@@ -71,3 +71,17 @@ section:nth-of-type(2)>div.bg {
     -webkit-filter: blur(5px) brightness(1.5) saturate(3) contrast(0.9) opacity(0.75);
     -moz-filter: blur(5px) brightness(1.5) saturate(3) contrast(0.9) opacity(0.75);
 }
+/* FLEXBOX PAGE */
+ section:nth-of-type(3) * {
+    color: white;
+}
+section:nth-of-type(3)>h1 {
+    font-family:"Great Vibes", "cursive";
+    font-size: 18vmin;
+}
+section:nth-of-type(3)>div.bg {
+    background-image: url("../images/flowers3.jpg");
+    filter: blur(2px) brightness(0.8);
+    -webkit-filter: blur(2px) brightness(0.8);
+    -moz-filter: blur(2px) brightness(0.8);
+}
