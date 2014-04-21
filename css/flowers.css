@@ -288,6 +288,14 @@ ul.none {
     display: inline-block;
     width: calc(100%/10);
 }
+.col-eigth {
+    display: inline-block;
+    width: calc(100%/8);
+}
+.col-sixth {
+    display: inline-block;
+    width: calc(100%/6);
+}
 .col-fifth {
     display: inline-block;
     width: calc(100%/5);
