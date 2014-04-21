@@ -316,6 +316,18 @@ ul.none {
     display: inline-block;
     width: 100%;
 }
+.min-100 {
+    min-width: 100px;
+}
+.min-150 {
+    min-width: 150px;
+}
+.min-200 {
+    min-width: 200px;
+}
+.min-250 {
+    min-width: 250px;
+}
 .min-300 {
     min-width: 300px;
 }
