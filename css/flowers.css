@@ -264,10 +264,6 @@ ul.none {
     text-align: justify;
 }
 /* GRID SYSTEM */
- .col-con>[class^="col-"] {
-    margin-left: 0px;
-    margin-right: 0px;
-}
 .col-twentieth {
     display: inline-block;
     width: calc(100%/20);
