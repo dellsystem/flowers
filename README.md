@@ -159,6 +159,7 @@ It is useful to lay out things in columns. Like in most other CSS frameworks, yo
 Flowers uses the calc() function in CSS to work out widths.
 
 | Proportion of a Column | Class             |
+| ---------------------- | ----------------- |
 | 1 / 20                 | `col-twentieth`   |
 | 1 / 18                 | `col-eigtheenth`  |
 | 1 / 16                 | `col-sixteenth`   |
@@ -178,6 +179,7 @@ Column elements should have margin left and right 0, otherwise the columns will 
 Flowers also has basic support for mobile, if you want your columns to wrap when the screen size is too small, you specify a `min-X` class, where `X` is the wrapping width. `350` or `500` in most cases.
 
 | Widths currently supported | Class     |
+| -------------------------- | --------- |
 | 100px                      | `min-100` |
 | 150px                      | `min-150` |
 | 200px                      | `min-200` |
