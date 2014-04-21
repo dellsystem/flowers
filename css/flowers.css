@@ -180,14 +180,14 @@ table {
     flex-basis: 100%;
 }
 /* LISTS */
-ul.blank {
+ ul.blank {
     list-style: none;
 }
 ul.none {
     text-indent: none;
 }
 /* TEXT */
-.italic {
+ .italic {
     font-style: italic;
 }
 .oblique {
@@ -205,7 +205,8 @@ ul.none {
 .capitalize {
     text-transform: capitalize;
 }
-.capitalise { /* hello british friends */
+.capitalise {
+    /* hello british friends */
     text-transform: capitalize;
 }
 .lightest {
@@ -262,4 +263,79 @@ ul.none {
 .text-justify {
     text-align: justify;
 }
-
+/* GRID SYSTEM */
+ .col-con>[class^="col-"] {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.col-twentieth {
+    display: inline-block;
+    width: calc(100%/20);
+}
+.col-eighteenth {
+    display: inline-block;
+    width: calc(100%/18);
+}
+.col-sixteenth {
+    display: inline-block;
+    width: calc(100%/16);
+}
+.col-fifthteenth {
+    display: inline-block;
+    width: calc(100%/15);
+}
+.col-twelth {
+    display: inline-block;
+    width: calc(100%/12);
+}
+.col-tenth {
+    display: inline-block;
+    width: calc(100%/10);
+}
+.col-fifth {
+    display: inline-block;
+    width: calc(100%/5);
+}
+.col-quarter {
+    display: inline-block;
+    width: calc(100%/4);
+}
+.col-third {
+    display: inline-block;
+    width: calc(100%/3);
+}
+.col-half {
+    display: inline-block;
+    width: calc(100%/2);
+}
+.col-full {
+    display: inline-block;
+    width: 100%;
+}
+.min-300 {
+    min-width: 300px;
+}
+.min-350 {
+    min-width: 350px;
+}
+.min-400 {
+    min-width: 400px;
+}
+.min-450 {
+    min-width: 450px;
+}
+.min-500 {
+    min-width: 500px;
+}
+.min-550 {
+    min-width: 550px;
+}
+.min-600 {
+    min-width: 600px;
+}
+.min-650 {
+    min-width: 650px;
+}
+.min-700 {
+    min-width: 700px;
+}
