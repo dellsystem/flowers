@@ -152,3 +152,43 @@ Text
 | 800    | `bolder`   |
 | 900    | `boldest`  |
 
+Grid System
+==
+
+It is useful to lay out things in columns. Like in most other CSS frameworks, you can do this in Flowers.
+Flowers uses the calc() function in CSS to work out widths.
+
+| Proportion of a Column | Class             |
+| 1 / 20                 | `col-twentieth`   |
+| 1 / 18                 | `col-eigtheenth`  |
+| 1 / 16                 | `col-sixteenth`   |
+| 1 / 15                 | `col-fifthteenth` |
+| 1 / 12                 | `col-twelth`      |
+| 1 / 10                 | `col-tenth`       |
+| 1 / 8                  | `col-eigth`       |
+| 1 / 6                  | `col-sixth`       |
+| 1 / 5                  | `col-fifth`       |
+| 1 / 4                  | `col-quarter`     |
+| 1 / 3                  | `col-third`       |
+| 1 / 2                  | `col-half`        |
+| 1 / 1                  | `col-full`        |
+
+Column elements should have margin left and right 0, otherwise the columns will wrap to the next line. If you want a space in between the columns, the current best solution is to make this the padding, and have a section inside the column where you put your content.
+
+Flowers also has basic support for mobile, if you want your columns to wrap when the screen size is too small, you specify a `min-X` class, where `X` is the wrapping width. `350` or `500` in most cases.
+
+| Widths currently supported | Class     |
+| 100px                      | `min-100` |
+| 150px                      | `min-150` |
+| 200px                      | `min-200` |
+| 250px                      | `min-250` |
+| 300px                      | `min-300` |
+| 350px                      | `min-350` |
+| 400px                      | `min-400` |
+| 450px                      | `min-450` |
+| 500px                      | `min-500` |
+| 550px                      | `min-550` |
+| 600px                      | `min-600` |
+| 650px                      | `min-650` |
+| 700px                      | `min-700` |
+| 750px                      | `min-750` |
